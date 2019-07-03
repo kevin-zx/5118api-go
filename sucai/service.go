@@ -20,7 +20,6 @@ const (
 )
 
 type service struct {
-	//responseHandler responsehandler.Service
 	requestService request.Service
 }
 
