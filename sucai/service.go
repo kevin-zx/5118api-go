@@ -16,7 +16,7 @@ const (
 	apiUrl                = "http://apis.5118.com/api/sucai"
 	timeOut               = 10 * time.Second
 	articleListDataPath   = "data"
-	articleDetailDataPath = "data"
+	articleDetailDataPath = "data.data"
 )
 
 type service struct {
