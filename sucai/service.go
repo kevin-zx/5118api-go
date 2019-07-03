@@ -14,7 +14,7 @@ type Service interface {
 
 const (
 	apiUrl                = "http://apis.5118.com/api/sucai"
-	timeOut               = 10 * time.Second
+	timeOut               = 30 * time.Second
 	articleListDataPath   = "data"
 	articleDetailDataPath = "data.data"
 )
