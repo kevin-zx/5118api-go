@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	apiUrl           = "http://apis.5118.com/wyc/akey"
+	apiUrl           = "http://apis.5118.com/wyc/sentence"
 	sentenceTimeOut  = 10 * time.Second
 	sentenceDataPath = "data"
 	//articleDetailDataPath = "data"
