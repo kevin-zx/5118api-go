@@ -1,4 +1,4 @@
-module 5118api-go
+module github.com/kevin-zx/5118api-go
 
 go 1.12
 

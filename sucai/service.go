@@ -1,8 +1,8 @@
 package sucai
 
 import (
-	"5118api-go/request"
-	"5118api-go/responsehandler"
+	"github.com/kevin-zx/5118api-go/request"
+	"github.com/kevin-zx/5118api-go/responsehandler"
 	"strconv"
 	"time"
 )
