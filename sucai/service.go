@@ -24,6 +24,10 @@ type service struct {
 }
 
 func (s *service) RequestArticleList(keyword string, pageIndex int, pageSize int) (ald *ArticleListData, err error) {
+	// todo: 这里验证100是不可以的,还是要验证
+	if pageSize > 20 {
+		pageSize = 20
+	}
 	res, err := s.requestService.SendRequest(map[string][]string{"keyword": {keyword}, "page_index": {strconv.Itoa(pageIndex)}, "page_size": {strconv.Itoa(pageSize)}})
 	if err != nil {
 		return
