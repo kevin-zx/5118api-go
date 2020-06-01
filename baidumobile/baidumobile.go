@@ -1,4 +1,4 @@
-package baidupc
+package baidumobile
 
 type BaiduMobileResult struct {
 	Keyword    string `json:"keyword"`

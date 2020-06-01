@@ -1,4 +1,4 @@
-package baidupc
+package baidumobile
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package baidupc
+package baidumobile
 
 import (
 	"github.com/kevin-zx/5118api-go/request"
